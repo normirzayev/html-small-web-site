@@ -1,0 +1,275 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+  max-width: 1440px;
+  margin: auto;
+}
+.section1{
+  background-image: url("./img/photo_2022-06-29_15-07-53.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 650px;
+}
+.navbar{
+  display: flex;
+  justify-content: end;
+  padding: 15px 130px;
+  background-color: rgba(0, 0, 0, 0.678);
+}
+.section1 .navbar{
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar a{
+  padding: 10px 20px;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: coral;
+  transition: 0.3s;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+.navbar a:hover {
+  border-bottom: 3px solid coral;
+}
+.section1_header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.box{
+  width: 400px;
+  padding: 50px 35px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.719);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  margin: 10px 0;
+}
+.box p{
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 100;
+  text-align: justify;
+}
+.box p span {
+  color: yellow;
+}
+.box h1{
+  text-transform: capitalize;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.box:first-child p {
+  color: coral;
+  text-transform: lowercase;
+  text-align: center;
+} 
+.box:last-child{
+  width: 20%;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(36, 36, 36, 0.363);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color:coral;
+}
+
+.section2{
+  background-image: url(./img/i\ \(1\).webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 80px;
+}
+.out_coffe {
+  text-align: center;
+  margin: 25px 0;
+}
+.out_coffe h1{
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+}
+.cafe-about{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+.cafe-card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #53453B;
+  width: 35%;
+  border-radius: 15px;
+  padding: 30px 25px;
+}
+.card-child{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.cafe-card:nth-child(2){
+  align-items: flex-end;
+}
+.cafe-card:nth-child(2) .card-text{
+  text-align: end;
+}
+.card-text {
+  line-height: 30px;
+  color: white;
+  text-transform: capitalize;
+}
+.card-text h3{
+  color: coral
+}
+.card-child .card-img{
+  width: 130px;
+  height: 100px;
+}
+.card-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.section3{
+  position: relative;
+}
+.section3 .navbar{
+  position: absolute;
+  width: 100%;
+}
+.section3-cards{
+  display: grid;
+  grid-template-columns: repeat(2, calc(100% / 2));
+}
+.section3_card{
+  background-image: url(./img/bipolar-disorder-caffeine-coffee.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+.section3_card:last-child{
+  background-image: url(./img/images\ \(1\).jpg);
+}
+.about_our{
+  background-color: rgba(255, 255, 255, 0.748);
+  padding: 40px 30px;
+  border-radius: 15px;
+  width: 80%;
+}
+.about_our h1{
+  color: #006764;
+  text-transform: capitalize;
+  font-weight: 100;
+  margin: 10px 0;
+}
+.about_our p {
+  margin: 15px 0;
+  line-height: 30px;
+}
+.btn-link a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #006764;
+  width: 150px;
+  padding: 15px 0; 
+  border-radius: 5px;
+  color: white;
+  margin: 20px 0;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+/* section4 btn-link style  */
+.section4_card .btn-link {
+  padding: 0;
+}
+.section4_card .btn-link:hover{
+  width: 200px;
+}
+.btn-link a:hover{
+  width: 200px;
+  background-color: #009691;
+}
+.section4_card{
+  background-image: url("./img/images\ \(3\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 20px;
+}
+.section4_card:first-child{ 
+  display: flex;
+  justify-content: flex-end;
+}
+.section4_card:last-child{
+  background-image: url(./img/images\ \(4\).jpg);
+}
+.section4_card form {
+  background-color:rgba(0, 0, 0, 0.541);
+  padding: 40px 30px;
+  border-radius: 15px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+form input, textarea{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  border-bottom: 1px solid coral;
+  margin: 5px 0;
+  font-size: 16px;
+  resize: none;
+}
+textarea{
+  height: 150px;
+}
+textarea::-webkit-scrollbar{
+  background-color: white;
+  width: 8px;
+  border-radius: 5px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+  background-color: silver; 
+  border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder{
+  color: silver;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+input[type="submit"]{
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  color: silver;
+}
+.btn_div {
+  text-align: right;
+}
